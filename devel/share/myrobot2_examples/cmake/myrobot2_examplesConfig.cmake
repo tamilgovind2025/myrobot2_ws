@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ros/myrobot2_ws/devel/lib;/home/ros/serial_ws/devel/lib;/home/ros/tamilgovind2020_ws/devel/lib;/home/ros/pack_ws/devel/lib;/home/ros/brandy_ws/devel/lib;/home/ros/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ros/myrobot2_ws/devel/lib;/home/ros/myrobot2_ws/devel/lib;/home/ros/serial_ws/devel/lib;/home/ros/tamilgovind2020_ws/devel/lib;/home/ros/pack_ws/devel/lib;/home/ros/brandy_ws/devel/lib;/home/ros/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

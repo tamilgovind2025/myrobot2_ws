@@ -52,3 +52,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/myrobot2_examples" TYPE FILE FILES "/home/ros/myrobot2_ws/src/myrobot2_examples/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/myrobot2_examples" TYPE PROGRAM FILES "/home/ros/myrobot2_ws/build/myrobot2_examples/catkin_generated/installspace/01_simple_publisher_node.py")
+endif()
+
