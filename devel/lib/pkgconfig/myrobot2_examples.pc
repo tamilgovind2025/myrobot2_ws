@@ -1,0 +1,8 @@
+prefix=/home/ros/myrobot2_ws/devel
+
+Name: myrobot2_examples
+Description: Description of myrobot2_examples
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ros/tamilgovind2020_ws/devel/include/**",
+        "/home/ros/brandy_ws/devel/include/**",
+        "/home/ros/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/ros/catkin_ws/src/all_code/include/**",
+        "/home/ros/tamilgovind2020_ws/src/gocind_navtack_pub/include/**",
+        "/home/ros/tamilgovind2020_ws/src/govind_sse_controller/include/**",
+        "/home/ros/brandy_ws/src/mybot01/include/**",
+        "/home/ros/brandy_ws/src/mybot_controller/include/**",
+        "/home/ros/brandy_ws/src/mybot_traj/include/**",
+        "/home/ros/myrobot2_ws/src/myrobot2_examples/include/**",
+        "/home/ros/catkin_ws/src/jetson_nano_bot/navstack_pub/include/**",
+        "/home/ros/serial_ws/src/rmcss/include/**",
+        "/home/ros/brandy_ws/src/robot_kinematics/include/**",
+        "/home/ros/tamilgovind2020_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/ros/tamilgovind2020_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/ros/tamilgovind2020_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,2 @@
+myrobot2_examples
+-DCATKIN_DEVEL_PREFIX=/home/ros/myrobot2_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ros/myrobot2_ws/install -G Unix Makefiles
