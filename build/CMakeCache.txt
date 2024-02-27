@@ -453,6 +453,18 @@ lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
 //Value Computed by CMake
+myrobo2_description_BINARY_DIR:STATIC=/home/ros/myrobot2_ws/build/myrobo2_description
+
+//Value Computed by CMake
+myrobo2_description_SOURCE_DIR:STATIC=/home/ros/myrobot2_ws/src/myrobo2_description
+
+//Value Computed by CMake
+myrobot2_description_BINARY_DIR:STATIC=/home/ros/myrobot2_ws/build/myrobot2_description
+
+//Value Computed by CMake
+myrobot2_description_SOURCE_DIR:STATIC=/home/ros/myrobot2_ws/src/myrobot2_description
+
+//Value Computed by CMake
 myrobot2_examples_BINARY_DIR:STATIC=/home/ros/myrobot2_ws/build/myrobot2_examples
 
 //Value Computed by CMake
@@ -633,7 +645,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
