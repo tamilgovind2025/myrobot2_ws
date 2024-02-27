@@ -161,6 +161,7 @@ include_directories(
 ## in contrast to setup.py, you can choose the destination
  catkin_install_python(PROGRAMS
    myrobot2_examples/01_simple_publisher_node.py
+   myrobot2_examples/02_simple_subscriber_node.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 

@@ -18,6 +18,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ros/myrobot2_ws/src/CMakeLists.txt"
   "/home/ros/myrobot2_ws/src/myrobot2_examples/CMakeLists.txt"
   "/home/ros/myrobot2_ws/src/myrobot2_examples/myrobot2_examples/01_simple_publisher_node.py"
+  "/home/ros/myrobot2_ws/src/myrobot2_examples/myrobot2_examples/02_simple_subscriber_node.py"
   "/home/ros/myrobot2_ws/src/myrobot2_examples/package.xml"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
