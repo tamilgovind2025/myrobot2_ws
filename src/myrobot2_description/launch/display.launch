@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+    <rosparam param="myrobot2_description"  file="$(find myrobot2_description)/urdf/myrobot2.urdf" command="load"/>
+
+    <node pkg="robot_state_publisher" type="robot_state" />
+    
+
+</launch>

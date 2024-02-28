@@ -3,7 +3,7 @@
 <robot name="myrobot2">
 
     <!-- base_footlink-->
-    <link name="base_footlink"/>
+    <link name="base_footprint"/>
 
     <!-- base link-->
     <link name="base_link">
@@ -17,7 +17,7 @@
     <joint name="base_joint" type="fixed">
         <parent link="base_footprint"/>
         <child link="base_link"/>
-        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.055"/>   
+        <origin xyz="0.0 0.0 0.055" rpy="0.0 0.0 0.0"/>   
     </joint>
      
     <!-- wheel right link-->
